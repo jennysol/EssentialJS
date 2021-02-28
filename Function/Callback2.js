@@ -17,5 +17,6 @@ lowGrades2 = grades.filter(function (grade) {
 
 console.log(lowGrades2)
 
-const lowGrades3 = grades.filter(grade => grade < 7)
+const gradesLess7 = grade => grade < 7
+const lowGrades3 = grades.filter(gradesLess7)
 console.log(lowGrades3)
